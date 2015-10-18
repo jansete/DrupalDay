@@ -21,13 +21,13 @@
   #footer,
   .region-bottom {
     outline: 1px solid #ccc;
-
-    @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
-      .lt-ie8 & {
+    // @deprecated for use in compass 1.0.1
+//    @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+//      .lt-ie8 & {
         /* IE6/7 do not support the outline property. */
-        border: 1px solid #ccc;
-      }
-    }
+//        border: 1px solid #ccc;
+//      }
+//    }
   }
 }
 
@@ -178,9 +178,10 @@ span.field-label {
 }
 .more-help-link a {
   background-image: inline-image("help.png");
-  @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
-    *background-image: image-url("help.png");
-  }
+  // @deprecated for use in compass 1.0.1
+//  @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+//    *background-image: image-url("help.png");
+//  }
   background-position: 0 50%;
   background-repeat: no-repeat;
   padding: 1px 0 1px 20px;
@@ -251,13 +252,14 @@ span.field-label {
   /* A very nice CSS3 property. */
   word-wrap: break-word;
 }
-@if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
-  .lt-ie8 .node-unpublished>*,
-  .lt-ie8 .comment-unpublished>* {
+// @deprecated for use in compass 1.0.1
+//@if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
+//  .lt-ie8 .node-unpublished>*,
+//  .lt-ie8 .comment-unpublished>* {
     /* Otherwise these elements will appear below the "Unpublished" text. */
-    position: relative;
-  }
-}
+//    position: relative;
+//  }
+//}
 
 /**
  * Comments.
