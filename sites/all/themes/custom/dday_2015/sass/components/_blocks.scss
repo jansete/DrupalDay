@@ -137,7 +137,7 @@
         width: 10px;
         height: 9px;
         background-color: #000;
-        color: #fff;
+        color: $yellow;
         content: '+';
         font-size: 11px;
         line-height: 11px;
@@ -190,7 +190,7 @@
     font-size: $h3-font-size;
     &:hover {
       background-color: $red;
-      color: #fff;
+      color: $yellow;
     }
   }
 }

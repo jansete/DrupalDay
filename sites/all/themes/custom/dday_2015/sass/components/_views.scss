@@ -89,7 +89,7 @@
     &:hover {
       background-color: $red;
       a {
-        color: #fff;
+        color: $yellow;
         text-decoration: none;
       }
     }
@@ -97,11 +97,11 @@
   .more-link {
     background-color: $red;
     border: 0 none;
-    color: #fff;
+    color: $yellow;
     float: right;
     padding: 0.2em 0.5em 0.3em;
     a {
-      color: #fff;
+      color: $yellow;
     }
   }
   &.view-display-id-block {
@@ -129,7 +129,7 @@
       &:hover {
         background-color: $red;
         a {
-          color: #fff;
+          color: $yellow;
           text-decoration: none;
         }
       }
