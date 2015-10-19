@@ -28,7 +28,6 @@
     margin: 0;
     padding: 0;
     text-align: left;
-    color: $yellow;
 
     li {
       /* A simple method to get navigation links to appear in one line. */
@@ -100,7 +99,7 @@ ul.nice-menu {
     line-height: 3.4em;
     padding: 0.3em 2em 0.1em 2em;
     background-color: transparent;
-    color: #fff;
+    color: $yellow;
     text-transform: uppercase;
     letter-spacing: 0.01em;
     text-decoration: none;
