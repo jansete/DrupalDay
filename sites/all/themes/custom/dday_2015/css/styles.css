@@ -34,10 +34,10 @@ body { margin: 0; padding: 0; color: #333333; }
 
 /** Links  The order of link states are based on Eric Meyer's article: http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states */
 /* line 138, ../sass/_normalize.scss */
-a:link { color: #ed1c24; text-decoration: none; }
+a:link { color: #861a22; text-decoration: none; }
 
 /* line 142, ../sass/_normalize.scss */
-a:visited { color: #ed1c24; }
+a:visited { color: #861a22; }
 
 /* line 146, ../sass/_normalize.scss */
 a:hover, a:focus { text-decoration: underline; }
@@ -301,7 +301,7 @@ table { /* Remove most spacing between table cells. */ border-collapse: collapse
 /* line 18, ../sass/components/_blocks.scss */
 .region-sidebar-first .block { margin-bottom: 3em; }
 /* line 21, ../sass/components/_blocks.scss */
-.region-sidebar-first .block__title { color: #ed1c24; line-height: 1em; }
+.region-sidebar-first .block__title { color: #861a22; line-height: 1em; }
 
 /* line 27, ../sass/components/_blocks.scss */
 #block-search-form { float: right; overflow: hidden; margin-top: 1em; }
@@ -333,7 +333,7 @@ table { /* Remove most spacing between table cells. */ border-collapse: collapse
 /* line 75, ../sass/components/_blocks.scss */
 #block-user-login .form-submit { margin-top: 0.75em; background-color: #999; }
 /* line 78, ../sass/components/_blocks.scss */
-#block-user-login .form-submit:hover { background-color: #ed1c24; }
+#block-user-login .form-submit:hover { background-color: #861a22; }
 
 /* Flexslider home */
 /* line 84, ../sass/components/_blocks.scss */
@@ -351,11 +351,11 @@ table { /* Remove most spacing between table cells. */ border-collapse: collapse
 /* line 117, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .field-name-field-slide-description p { margin: 0; line-height: 1.3em; }
 /* line 122, ../sass/components/_blocks.scss */
-#block-views-flexslider-home-block .node__title { color: #ed1c24; font-size: 3em; line-height: 1em; margin: 0; }
+#block-views-flexslider-home-block .node__title { color: #861a22; font-size: 3em; line-height: 1em; margin: 0; }
 /* line 129, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .field-name-field-slide-enlace a { color: #000; font-size: 0.8em; font-weight: 600; }
 /* line 133, ../sass/components/_blocks.scss */
-#block-views-flexslider-home-block .field-name-field-slide-enlace a:after { display: inline-block; margin-left: 7px; padding: 1px 0 4px 4px; width: 10px; height: 9px; background-color: #000; color: #fff; content: '+'; font-size: 11px; line-height: 11px; }
+#block-views-flexslider-home-block .field-name-field-slide-enlace a:after { display: inline-block; margin-left: 7px; padding: 1px 0 4px 4px; width: 10px; height: 9px; background-color: #000; color: #f99a1c; content: '+'; font-size: 11px; line-height: 11px; }
 /* line 148, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .flexslider { margin: 0; padding: 0; border: 0; background-color: #000; box-shadow: 0; }
 /* line 155, ../sass/components/_blocks.scss */
@@ -369,9 +369,9 @@ table { /* Remove most spacing between table cells. */ border-collapse: collapse
 
 /* Add sesion block */
 /* line 181, ../sass/components/_blocks.scss */
-#block-dday-add-sesion-block-dday-add-sesion-block .submit-sesion { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; display: block; padding: 1em; border: 2px solid #ed1c24; background-color: transparent; color: #ed1c24; text-align: center; text-decoration: none; font-size: 18.72px; }
+#block-dday-add-sesion-block-dday-add-sesion-block .submit-sesion { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; display: block; padding: 1em; border: 2px solid #861a22; background-color: transparent; color: #861a22; text-align: center; text-decoration: none; font-size: 18.72px; }
 /* line 191, ../sass/components/_blocks.scss */
-#block-dday-add-sesion-block-dday-add-sesion-block .submit-sesion:hover { background-color: #ed1c24; color: #fff; }
+#block-dday-add-sesion-block-dday-add-sesion-block .submit-sesion:hover { background-color: #861a22; color: #f99a1c; }
 
 /* Mailchimp newsletter */
 /* line 199, ../sass/components/_blocks.scss */
@@ -379,7 +379,7 @@ table { /* Remove most spacing between table cells. */ border-collapse: collapse
 /* line 201, ../sass/components/_blocks.scss */
 #block-mailchimp-signup-newsletter .form-item { margin: 0.25em 0 0.5em 0; }
 /* line 204, ../sass/components/_blocks.scss */
-#block-mailchimp-signup-newsletter .form-submit { float: right; margin-right: 1px; background-color: #ed1c24; }
+#block-mailchimp-signup-newsletter .form-submit { float: right; margin-right: 1px; background-color: #861a22; }
 
 /* Users list block */
 /* line 212, ../sass/components/_blocks.scss */
@@ -567,9 +567,9 @@ tr.selected td { background: #ffc; }
 .view-colaboradores .field-content { text-align: center; }
 
 /* line 26, ../sass/components/_home.sass */
-#block-dday-register-block-dday-register-block .dday-register-block { background-color: transparent; border: 2px solid #ed1c24; border-radius: 3px; color: #ed1c24; display: block; font-size: 18.72px; padding: 1em; text-align: center; text-decoration: none; }
+#block-dday-register-block-dday-register-block .dday-register-block { background-color: transparent; border: 2px solid #861a22; border-radius: 3px; color: #861a22; display: block; font-size: 18.72px; padding: 1em; text-align: center; text-decoration: none; }
 /* line 36, ../sass/components/_home.sass */
-#block-dday-register-block-dday-register-block .dday-register-block:hover { background-color: #ed1c24; color: white; }
+#block-dday-register-block-dday-register-block .dday-register-block:hover { background-color: #861a22; color: #f99a1c; }
 
 /* line 43, ../sass/components/_home.sass */
 .view-home-page .views-row, .view-noticias .views-row { margin-bottom: 1em; }
@@ -664,7 +664,7 @@ html { background-color: #f4f4f4; }
 
 /** Titles. */
 /* line 136, ../sass/components/_misc.scss */
-.page__title { color: #ed1c24; margin: 1.5em 0 0.75em 0; }
+.page__title { color: #861a22; margin: 1.5em 0 0.75em 0; }
 
 /* line 144, ../sass/components/_misc.scss */
 .node__title, .block__title, .comments__title, .comments__form-title, .comment__title { /* Comment title. */ margin: 0; }
@@ -741,88 +741,88 @@ span.field-label { padding: 0 1em 0 0; }
 /** @file SMACSS Modules  Navigation styles. */
 /** Navigation bar. */
 /* line 11, ../sass/components/_navigation.scss */
-#navigation { /* Sometimes you want to prevent overlapping with main div. */ /* overflow: hidden; */ background: url('../images/bg-menu.png?1443646560') repeat-x center center #ed1c24; /* Main menu and secondary menu links and menu block links. */ }
+#navigation { /* Sometimes you want to prevent overlapping with main div. */ /* overflow: hidden; */ background: url('../images/bg-menu.png?1443646560') repeat-x center center #861a22; /* Main menu and secondary menu links and menu block links. */ }
 /* line 15, ../sass/components/_navigation.scss */
 #navigation .block { margin-bottom: 0; text-align: center; }
 /* line 27, ../sass/components/_navigation.scss */
-#navigation .links, #navigation .menu { margin: 0; padding: 0; text-align: left; color: #fff; }
-/* line 33, ../sass/components/_navigation.scss */
+#navigation .links, #navigation .menu { margin: 0; padding: 0; text-align: left; }
+/* line 32, ../sass/components/_navigation.scss */
 #navigation .links li, #navigation .menu li { /* A simple method to get navigation links to appear in one line. */ float: left; padding: 0 10px 0 0; list-style-type: none; list-style-image: none; }
 
 /** Menus. */
-/* line 46, ../sass/components/_navigation.scss */
+/* line 45, ../sass/components/_navigation.scss */
 .menu__item.is-leaf { list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHBAMAAAA2fErgAAAAD1BMVEX///+/v7+Li4sAAADAwMBFvsw8AAAAAXRSTlMAQObYZgAAAB1JREFUCFtjYAADYwMGBmYVZSDhKAwkFJWhYiAAAB2+Aa/9ugeaAAAAAElFTkSuQmCC'); list-style-type: square; }
 
-/* line 53, ../sass/components/_navigation.scss */
+/* line 52, ../sass/components/_navigation.scss */
 .menu__item.is-expanded { list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABJJREFUeJxj+MdQw2DBIMAABgAUsAHD3c3BpwAAAABJRU5ErkJggg=='); list-style-type: circle; }
 
-/* line 60, ../sass/components/_navigation.scss */
+/* line 59, ../sass/components/_navigation.scss */
 .menu__item.is-collapsed { list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABFJREFUCB1jVmCGQClmEWYOAAZ8AMy3HPLXAAAAAElFTkSuQmCC'); list-style-type: disc; }
 
 /* The active item in a Drupal menu. */
-/* line 69, ../sass/components/_navigation.scss */
+/* line 68, ../sass/components/_navigation.scss */
 .menu a.active { color: #000; }
 
 /** General Nice Menu styles. */
-/* line 77, ../sass/components/_navigation.scss */
+/* line 76, ../sass/components/_navigation.scss */
 ul.nice-menu, ul.nice-menu ul { list-style: none; padding: 0; margin: 0; border: 0; }
 
-/* line 85, ../sass/components/_navigation.scss */
+/* line 84, ../sass/components/_navigation.scss */
 ul.nice-menu ul { top: 4em; left: -1px; /* LTR */ border: 0; margin-right: 0; /* LTR */ }
-/* line 92, ../sass/components/_navigation.scss */
+/* line 91, ../sass/components/_navigation.scss */
 ul.nice-menu li { border: 0; border-top: 0; float: none; /* LTR */ display: inline-block; }
-/* line 99, ../sass/components/_navigation.scss */
-ul.nice-menu a { line-height: 3.4em; padding: 0.3em 2em 0.1em 2em; background-color: transparent; color: #fff; text-transform: uppercase; letter-spacing: 0.01em; text-decoration: none; }
-@media (min-width: 30.05em) { /* line 99, ../sass/components/_navigation.scss */
+/* line 98, ../sass/components/_navigation.scss */
+ul.nice-menu a { line-height: 3.4em; padding: 0.3em 2em 0.1em 2em; background-color: transparent; color: #f99a1c; text-transform: uppercase; letter-spacing: 0.01em; text-decoration: none; }
+@media (min-width: 30.05em) { /* line 98, ../sass/components/_navigation.scss */
   ul.nice-menu a { padding: 0.4em 0.3em 0.1em 0.3em; font-size: 0.9em; } }
-@media (min-width: 46em) { /* line 99, ../sass/components/_navigation.scss */
+@media (min-width: 46em) { /* line 98, ../sass/components/_navigation.scss */
   ul.nice-menu a { padding: 0.3em 0.6em 0.1em 0.6em; font-size: 1em; } }
-@media (min-width: 61.2em) { /* line 99, ../sass/components/_navigation.scss */
+@media (min-width: 61.2em) { /* line 98, ../sass/components/_navigation.scss */
   ul.nice-menu a { padding: 0.3em 2em 0.1em 2em; } }
-/* line 119, ../sass/components/_navigation.scss */
+/* line 118, ../sass/components/_navigation.scss */
 ul.nice-menu ul li { width: 18em; font-size: 0.9em; }
 
 /** HORIZONTAL (down) menus */
-/* line 128, ../sass/components/_navigation.scss */
+/* line 127, ../sass/components/_navigation.scss */
 ul.nice-menu-down { float: none; /* LTR */ border: 0; }
-/* line 131, ../sass/components/_navigation.scss */
+/* line 130, ../sass/components/_navigation.scss */
 ul.nice-menu-down ul { left: 0; /* LTR */ }
-/* line 133, ../sass/components/_navigation.scss */
+/* line 132, ../sass/components/_navigation.scss */
 ul.nice-menu-down ul li { clear: both; }
-/* line 137, ../sass/components/_navigation.scss */
+/* line 136, ../sass/components/_navigation.scss */
 ul.nice-menu-down li { border: 0 1px 0 0; background-color: transparent; }
-/* line 140, ../sass/components/_navigation.scss */
+/* line 139, ../sass/components/_navigation.scss */
 ul.nice-menu-down li ul li ul { left: 12.5em; /* LTR */ top: -1px; }
-/* line 144, ../sass/components/_navigation.scss */
+/* line 143, ../sass/components/_navigation.scss */
 ul.nice-menu-down li li { border-top: 0; }
-/* line 147, ../sass/components/_navigation.scss */
+/* line 146, ../sass/components/_navigation.scss */
 ul.nice-menu-down li li.menuparent { background: url('../images/arrow-right.png?1443646560') right center no-repeat transparent; /* LTR */ }
-/* line 149, ../sass/components/_navigation.scss */
+/* line 148, ../sass/components/_navigation.scss */
 ul.nice-menu-down li li.menuparent:hover { background: url('../images/arrow-right.png?1443646560') right center no-repeat transparent; /* LTR */ }
-@media (min-width: 30.05em) { /* line 155, ../sass/components/_navigation.scss */
+@media (min-width: 30.05em) { /* line 154, ../sass/components/_navigation.scss */
   ul.nice-menu-down .menuparent a { padding-right: 1em; } }
-@media (min-width: 46em) { /* line 155, ../sass/components/_navigation.scss */
+@media (min-width: 46em) { /* line 154, ../sass/components/_navigation.scss */
   ul.nice-menu-down .menuparent a { padding-right: 1.5em; /* LTR */ } }
-/* line 163, ../sass/components/_navigation.scss */
-ul.nice-menu-down .menuparent .menu__item a { background-color: #ed1c24; line-height: 1.5em; padding: 1em 2em; border-bottom: 1px dotted white; }
-/* line 168, ../sass/components/_navigation.scss */
+/* line 162, ../sass/components/_navigation.scss */
+ul.nice-menu-down .menuparent .menu__item a { background-color: #861a22; line-height: 1.5em; padding: 1em 2em; border-bottom: 1px dotted white; }
+/* line 167, ../sass/components/_navigation.scss */
 ul.nice-menu-down .menuparent .menu__item a:hover { background-color: rgba(193, 39, 45, 0.9); }
-/* line 173, ../sass/components/_navigation.scss */
+/* line 172, ../sass/components/_navigation.scss */
 ul.nice-menu-down li.menuparent { background: url('../images/arrow-down.png?1443646560') right center no-repeat transparent; /* LTR */ }
-/* line 175, ../sass/components/_navigation.scss */
+/* line 174, ../sass/components/_navigation.scss */
 ul.nice-menu-down li.menuparent:hover { background: url('../images/arrow-down.png?1443646560') right center no-repeat transparent; /* LTR */ }
 
 /** @file SMACSS Modules  Node styles. */
 /* line 8, ../sass/components/_node.scss */
-.node-teaser { border-top: 5px solid #ed1c24; }
+.node-teaser { border-top: 5px solid #861a22; }
 /* line 10, ../sass/components/_node.scss */
 .node-teaser .node__title { margin-top: 0.5em; }
 /* line 14, ../sass/components/_node.scss */
 .node-teaser .field-name-body p { margin: 0.75em 0; }
 /* line 18, ../sass/components/_node.scss */
-.node-teaser .field-name-node-link a { font-size: 0.9em; float: right; padding: 0.3em; background-color: #ed1c24; border: 0 none; color: #fff; }
+.node-teaser .field-name-node-link a { font-size: 0.9em; float: right; padding: 0.4em 1.2em; background-color: #861a22; border: 0 none; color: #f99a1c; }
 /* line 25, ../sass/components/_node.scss */
-.node-teaser .field-name-node-link a:after { content: '+'; padding: 0 0.3em 0 1em; }
+.node-teaser .field-name-node-link a:after { content: '+'; padding: 0 0.3em; }
 
 /** @file SMACSS Modules  Region Highlighted styles. */
 /* line 8, ../sass/components/_region-highlighted.scss */
@@ -844,7 +844,7 @@ ul.nice-menu-down li.menuparent:hover { background: url('../images/arrow-down.pn
 @media (max-width: 630px) { /* line 1, ../sass/components/_tables.sass */
   #table-session { font-size: 78%; } }
 /* line 5, ../sass/components/_tables.sass */
-#table-session thead th { background: #ed1c24; color: white; font-size: 18px; padding: 10px; }
+#table-session thead th { background: #861a22; color: #f99a1c; font-size: 18px; padding: 10px; }
 /* line 10, ../sass/components/_tables.sass */
 #table-session thead th:first-child { border-top-left-radius: 8px; }
 /* line 12, ../sass/components/_tables.sass */
@@ -856,7 +856,7 @@ ul.nice-menu-down li.menuparent:hover { background: url('../images/arrow-down.pn
 /* line 24, ../sass/components/_tables.sass */
 #table-session tbody tr td.taller { background-color: #d4d4d4; }
 /* line 26, ../sass/components/_tables.sass */
-#table-session tbody tr td:first-child { background: #ed1c24; border: none; color: white; font-weight: bold; min-width: 100px; padding: 15px; border-top: 1px solid white; }
+#table-session tbody tr td:first-child { background: #861a22; border: none; color: #f99a1c; font-weight: bold; min-width: 100px; padding: 15px; border-top: 1px solid white; }
 @media (max-width: 630px) { /* line 26, ../sass/components/_tables.sass */
   #table-session tbody tr td:first-child { padding: 5; min-width: 0; } }
 /* line 37, ../sass/components/_tables.sass */
@@ -947,15 +947,15 @@ a.tabs-secondary__tab-link:active, a.tabs-secondary__tab-link.is-active { text-s
 /* line 78, ../sass/components/_views.scss */
 .view-comunidad .field-content img { display: block; margin: 0 auto; }
 /* line 83, ../sass/components/_views.scss */
-.view-comunidad .views-field-name { max-width: 80%; border: 2px solid #ed1c24; border-radius: 4px; padding: 2px 0 3px 0; line-height: 1em; }
+.view-comunidad .views-field-name { max-width: 80%; border: 2px solid #861a22; border-radius: 4px; padding: 2px 0 3px 0; line-height: 1em; }
 /* line 89, ../sass/components/_views.scss */
-.view-comunidad .views-field-name:hover { background-color: #ed1c24; }
+.view-comunidad .views-field-name:hover { background-color: #861a22; }
 /* line 91, ../sass/components/_views.scss */
-.view-comunidad .views-field-name:hover a { color: #fff; text-decoration: none; }
+.view-comunidad .views-field-name:hover a { color: #f99a1c; text-decoration: none; }
 /* line 97, ../sass/components/_views.scss */
-.view-comunidad .more-link { background-color: #ed1c24; border: 0 none; color: #fff; float: right; padding: 0.2em 0.5em 0.3em; }
+.view-comunidad .more-link { background-color: #861a22; border: 0 none; color: #f99a1c; float: right; padding: 0.2em 0.5em 0.3em; }
 /* line 103, ../sass/components/_views.scss */
-.view-comunidad .more-link a { color: #fff; }
+.view-comunidad .more-link a { color: #f99a1c; }
 /* line 108, ../sass/components/_views.scss */
 .view-comunidad.view-display-id-block .views-row { margin: 0; padding-bottom: 1em; width: 49%; font-size: 0.85em; }
 /* line 114, ../sass/components/_views.scss */
@@ -963,11 +963,11 @@ a.tabs-secondary__tab-link:active, a.tabs-secondary__tab-link.is-active { text-s
 /* line 119, ../sass/components/_views.scss */
 .view-comunidad.view-display-id-page .views-row { margin: 1em auto; padding-bottom: 1em; width: 19%; }
 /* line 124, ../sass/components/_views.scss */
-.view-comunidad.view-display-id-page .views-field-name { max-width: 80%; border: 2px solid #ed1c24; border-radius: 4px; padding: 2px 0 3px 0; }
+.view-comunidad.view-display-id-page .views-field-name { max-width: 80%; border: 2px solid #861a22; border-radius: 4px; padding: 2px 0 3px 0; }
 /* line 129, ../sass/components/_views.scss */
-.view-comunidad.view-display-id-page .views-field-name:hover { background-color: #ed1c24; }
+.view-comunidad.view-display-id-page .views-field-name:hover { background-color: #861a22; }
 /* line 131, ../sass/components/_views.scss */
-.view-comunidad.view-display-id-page .views-field-name:hover a { color: #fff; text-decoration: none; }
+.view-comunidad.view-display-id-page .views-field-name:hover a { color: #f99a1c; text-decoration: none; }
 
 /** @file Print styling  We provide some sane print styling for Drupal using Zen's layout method. */
 /** By importing this CSS file as media "all", we allow this print file to be aggregated with other stylesheets, for improved front-end performance. */
