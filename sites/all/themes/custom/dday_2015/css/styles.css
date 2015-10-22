@@ -972,6 +972,10 @@ a.tabs-secondary__tab-link:active, a.tabs-secondary__tab-link.is-active { text-s
 /* line 131, ../sass/components/_views.scss */
 .view-comunidad.view-display-id-page .views-field-name:hover a { color: #f99a1c; text-decoration: none; }
 
+/** Colaboradores view. */
+/* line 146, ../sass/components/_views.scss */
+.view-colaboradores tr td .field-content { padding: 5% 15%; }
+
 /** @file Print styling  We provide some sane print styling for Drupal using Zen's layout method. */
 /** By importing this CSS file as media "all", we allow this print file to be aggregated with other stylesheets, for improved front-end performance. */
 @media print { /* Underline all links. */
