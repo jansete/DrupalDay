@@ -26,14 +26,17 @@ function dday_add_sesion_block_block_view($delta = '') {
   switch ($delta) {
     case 'dday_add_sesion_block':
       $block['subject'] = '';
-      $block['content'] = l(
-        t('Submit a session'),
-        drupal_get_path_alias('user/register'),
-        array(
-          'query' => array('destination' => drupal_get_path_alias('node/add/sesion')),
-          'attributes' => array('class' => array('submit-sesion', 'button'))
-          )
-        );
+      $options = array(
+        'attributes' => array('class' => array('submit-sesion', 'button'))
+      );
+      if (user_is_logged_in()) {
+        $path_alias = drupal_get_path_alias('node/add/sesion');
+      }
+      else {
+        $path_alias = drupal_get_path_alias('user/register');
+        $options['query'] = array('destination' => drupal_get_path_alias('node/add/sesion'));
+      }
+      $block['content'] = l(t('Submit a session'), $path_alias, $options);
       break;
   }
   return $block;
