@@ -99,22 +99,21 @@
       display: block;
       margin-right: auto;
       margin-left: auto;
-      width: auto;
     }
   }
   .group-right {
-    height: 400px;
+    height: 100%;
     left: 0;
-    padding: 0 20px 0 80px;
+    padding: 0 20px 0 70px;
     position: absolute;
     width: 370px;
-    background: image-url('bg-slide.png') no-repeat top right transparent;
+    background: image-url('bg-slide-wide.png') no-repeat center right transparent;
   }
   .field-name-field-slide-description {
-    padding-top: 2em;
+    padding-top: 1.5em;
     text-transform: uppercase;
     font-weight: 300;
-    width: 272px;
+    width: 95%;
     p {
       margin: 0;
       line-height: 1.3em;
@@ -125,6 +124,7 @@
     font-size: 3em;
     line-height: 1em;
     margin: 0;
+    width: 90%;
   }
   .field-name-field-slide-enlace {
     a {
