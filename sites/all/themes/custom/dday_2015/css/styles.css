@@ -335,60 +335,65 @@ table { /* Remove most spacing between table cells. */ border-collapse: collapse
 /* line 78, ../sass/components/_blocks.scss */
 #block-user-login .form-submit:hover { background-color: #861a22; }
 
-/* Flexslider home */
 /* line 84, ../sass/components/_blocks.scss */
-#block-views-flexslider-home-block { position: relative; margin-bottom: 0; overflow: hidden; /* Flexslider */ }
-/* line 89, ../sass/components/_blocks.scss */
-#block-views-flexslider-home-block ul, #block-views-flexslider-home-block li { margin: 0; padding: 0; list-style: none; }
-/* line 94, ../sass/components/_blocks.scss */
-#block-views-flexslider-home-block .group-left { position: relative; padding: 0; width: 100%; }
+a#logo { text-decoration: none; }
+/* line 87, ../sass/components/_blocks.scss */
+a#logo .logo-subtitle { line-height: 16px; font-weight: bold; text-align: center; margin-top: 7px; margin-left: -15px; text-transform: uppercase; }
+
+/* Flexslider home */
 /* line 98, ../sass/components/_blocks.scss */
-#block-views-flexslider-home-block .group-left img { display: block; margin-right: auto; margin-left: auto; }
-/* line 104, ../sass/components/_blocks.scss */
-#block-views-flexslider-home-block .group-right { height: 100%; left: 0; padding: 0 20px 0 70px; position: absolute; width: 370px; background: url('../images/bg-slide-wide.png?1446387727') no-repeat center right transparent; }
+#block-views-flexslider-home-block { position: relative; margin-bottom: 0; overflow: hidden; /* Flexslider */ }
+/* line 103, ../sass/components/_blocks.scss */
+#block-views-flexslider-home-block ul, #block-views-flexslider-home-block li { margin: 0; padding: 0; list-style: none; }
+/* line 108, ../sass/components/_blocks.scss */
+#block-views-flexslider-home-block .group-left { position: relative; padding: 0; width: 100%; }
 /* line 112, ../sass/components/_blocks.scss */
-#block-views-flexslider-home-block .field-name-field-slide-description { padding-top: 1.5em; text-transform: uppercase; font-weight: 300; width: 95%; }
-/* line 117, ../sass/components/_blocks.scss */
+#block-views-flexslider-home-block .group-left img { display: block; margin-right: auto; margin-left: auto; }
+/* line 118, ../sass/components/_blocks.scss */
+#block-views-flexslider-home-block .group-right { height: 100%; left: 0; padding: 0 20px 0 70px; position: absolute; width: 370px; background: url('../images/bg-slide-wide.png?1446403495') no-repeat center right transparent; }
+/* line 126, ../sass/components/_blocks.scss */
+#block-views-flexslider-home-block .field-name-field-slide-description { padding-top: 3.6em; text-transform: uppercase; font-weight: 300; width: 95%; }
+/* line 131, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .field-name-field-slide-description p { margin: 0; line-height: 1.3em; }
-/* line 122, ../sass/components/_blocks.scss */
+/* line 136, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .node__title { color: #861a22; font-size: 3em; line-height: 1em; margin: 0; width: 90%; }
-/* line 130, ../sass/components/_blocks.scss */
+/* line 144, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .field-name-field-slide-enlace a { color: #000; font-size: 0.8em; font-weight: 600; }
-/* line 134, ../sass/components/_blocks.scss */
+/* line 148, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .field-name-field-slide-enlace a:after { display: inline-block; margin-left: 7px; padding: 1px 0 4px 4px; width: 10px; height: 9px; background-color: #000; color: #f99a1c; content: '+'; font-size: 11px; line-height: 11px; }
-/* line 149, ../sass/components/_blocks.scss */
+/* line 163, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .flexslider { margin: 0; padding: 0; border: 0; background-color: #000; box-shadow: 0; }
-/* line 156, ../sass/components/_blocks.scss */
+/* line 170, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .flex-control-nav { bottom: 0; }
-/* line 161, ../sass/components/_blocks.scss */
-#block-views-flexslider-home-block .flex-direction-nav a.flex-next, #block-views-flexslider-home-block .flex-direction-nav a.flex-prev { display: block; overflow: hidden; width: 25px; height: 40px; background: url('../images/sprite.png?1445273813') no-repeat left top transparent; text-align: inherit; text-indent: -1000px; }
-/* line 169, ../sass/components/_blocks.scss */
+/* line 175, ../sass/components/_blocks.scss */
+#block-views-flexslider-home-block .flex-direction-nav a.flex-next, #block-views-flexslider-home-block .flex-direction-nav a.flex-prev { display: block; overflow: hidden; width: 25px; height: 40px; background: url('../images/sprite.png?1445361535') no-repeat left top transparent; text-align: inherit; text-indent: -1000px; }
+/* line 183, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .flex-direction-nav a.flex-next:before, #block-views-flexslider-home-block .flex-direction-nav a.flex-prev:before { content: ''; display: none; }
-/* line 174, ../sass/components/_blocks.scss */
+/* line 188, ../sass/components/_blocks.scss */
 #block-views-flexslider-home-block .flex-direction-nav a.flex-prev { background-position: left -41px; }
 
 /* Add sesion block */
-/* line 182, ../sass/components/_blocks.scss */
+/* line 196, ../sass/components/_blocks.scss */
 #block-dday-add-sesion-block-dday-add-sesion-block .submit-sesion { -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; display: block; padding: 1em; border: 2px solid #861a22; background-color: transparent; color: #861a22; text-align: center; text-decoration: none; font-size: 18.72px; }
-/* line 192, ../sass/components/_blocks.scss */
+/* line 206, ../sass/components/_blocks.scss */
 #block-dday-add-sesion-block-dday-add-sesion-block .submit-sesion:hover { background-color: #861a22; color: #f99a1c; }
 
 /* Mailchimp newsletter */
-/* line 200, ../sass/components/_blocks.scss */
+/* line 214, ../sass/components/_blocks.scss */
 #block-mailchimp-signup-newsletter { overflow: hidden; }
-/* line 202, ../sass/components/_blocks.scss */
+/* line 216, ../sass/components/_blocks.scss */
 #block-mailchimp-signup-newsletter .form-item { margin: 0.25em 0 0.5em 0; }
-/* line 205, ../sass/components/_blocks.scss */
+/* line 219, ../sass/components/_blocks.scss */
 #block-mailchimp-signup-newsletter .form-submit { float: right; margin-right: 1px; background-color: #861a22; }
 
 /* Users list block */
-/* line 213, ../sass/components/_blocks.scss */
+/* line 227, ../sass/components/_blocks.scss */
 #block-views-comunidad-block { overflow: hidden; }
 
-/* line 219, ../sass/components/_blocks.scss */
+/* line 233, ../sass/components/_blocks.scss */
 #block-block-3 { display: none; }
 
-/* line 224, ../sass/components/_blocks.scss */
+/* line 238, ../sass/components/_blocks.scss */
 #block-block-4 .weather_frame { width: 225px !important; background: #f4f4f4 none repeat scroll 0 0 !important; border: none !important; }
 
 /** @file SMACSS Modules  Breadcrumb styles. */
@@ -520,7 +525,7 @@ tr.selected td { background: #ffc; }
 /* line 250, ../sass/components/_forms.scss */
 .progress .bar { background: #ccc; border-color: #666; margin: 0 0.2em; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; }
 /* line 256, ../sass/components/_forms.scss */
-.progress .filled { background-color: #0072b9; background-image: url('../images/progress.gif?1445273813'); }
+.progress .filled { background-color: #0072b9; background-image: url('../images/progress.gif?1445361535'); }
 
 /** @file SMACSS Modules  Header styles. */
 /** Branding header. */
@@ -744,7 +749,7 @@ span.field-label { padding: 0 1em 0 0; }
 /** @file SMACSS Modules  Navigation styles. */
 /** Navigation bar. */
 /* line 11, ../sass/components/_navigation.scss */
-#navigation { /* Sometimes you want to prevent overlapping with main div. */ /* overflow: hidden; */ background: url('../images/bg-menu.png?1445273813') repeat-x center center #861a22; /* Main menu and secondary menu links and menu block links. */ }
+#navigation { /* Sometimes you want to prevent overlapping with main div. */ /* overflow: hidden; */ background: url('../images/bg-menu.png?1445361535') repeat-x center center #861a22; /* Main menu and secondary menu links and menu block links. */ }
 /* line 15, ../sass/components/_navigation.scss */
 #navigation .block { margin-bottom: 0; text-align: center; }
 /* line 27, ../sass/components/_navigation.scss */
@@ -799,9 +804,9 @@ ul.nice-menu-down li ul li ul { left: 12.5em; /* LTR */ top: -1px; }
 /* line 143, ../sass/components/_navigation.scss */
 ul.nice-menu-down li li { border-top: 0; }
 /* line 146, ../sass/components/_navigation.scss */
-ul.nice-menu-down li li.menuparent { background: url('../images/arrow-right.png?1445273813') right center no-repeat transparent; /* LTR */ }
+ul.nice-menu-down li li.menuparent { background: url('../images/arrow-right.png?1445361535') right center no-repeat transparent; /* LTR */ }
 /* line 148, ../sass/components/_navigation.scss */
-ul.nice-menu-down li li.menuparent:hover { background: url('../images/arrow-right.png?1445273813') right center no-repeat transparent; /* LTR */ }
+ul.nice-menu-down li li.menuparent:hover { background: url('../images/arrow-right.png?1445361535') right center no-repeat transparent; /* LTR */ }
 @media (min-width: 30.05em) { /* line 154, ../sass/components/_navigation.scss */
   ul.nice-menu-down .menuparent a { padding-right: 1em; } }
 @media (min-width: 46em) { /* line 154, ../sass/components/_navigation.scss */
@@ -811,9 +816,9 @@ ul.nice-menu-down .menuparent .menu__item a { background-color: #861a22; line-he
 /* line 167, ../sass/components/_navigation.scss */
 ul.nice-menu-down .menuparent .menu__item a:hover { background-color: rgba(193, 39, 45, 0.9); }
 /* line 172, ../sass/components/_navigation.scss */
-ul.nice-menu-down li.menuparent { background: url('../images/arrow-down.png?1445273813') right center no-repeat transparent; /* LTR */ }
+ul.nice-menu-down li.menuparent { background: url('../images/arrow-down.png?1445361535') right center no-repeat transparent; /* LTR */ }
 /* line 174, ../sass/components/_navigation.scss */
-ul.nice-menu-down li.menuparent:hover { background: url('../images/arrow-down.png?1445273813') right center no-repeat transparent; /* LTR */ }
+ul.nice-menu-down li.menuparent:hover { background: url('../images/arrow-down.png?1445361535') right center no-repeat transparent; /* LTR */ }
 
 /** @file SMACSS Modules  Node styles. */
 /* line 8, ../sass/components/_node.scss */
